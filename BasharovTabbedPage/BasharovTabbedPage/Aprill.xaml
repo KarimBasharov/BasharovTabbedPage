@@ -2,12 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BasharovTabbedPage.Aprill"
-             Title="Aprill">
+             Title="Апрель">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="День дурака (April Fools' Day или All Fool's Day) или День смеха — это международный праздник, отмечаемый во всем мире 1 апреля. В этот день принято разыгрывать родных, друзей и просто знакомых, или подшучивать над ними."
+                   TextColor="Wheat"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

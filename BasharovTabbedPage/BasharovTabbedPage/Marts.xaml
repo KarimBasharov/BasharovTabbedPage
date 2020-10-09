@@ -2,12 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BasharovTabbedPage.Marts"
-             Title="Marts">
+             Title="Март">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Международный женский день. Всемирный день женщин, в который также отмечаются достижения женщин в политической, экономической и социальной областях, празднуется прошлое, настоящее и будущее женщин планеты."
+                   TextColor="Wheat"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

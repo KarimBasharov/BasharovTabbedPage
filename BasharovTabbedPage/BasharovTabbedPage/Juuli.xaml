@@ -2,12 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BasharovTabbedPage.Juuli"
-             Title="Juuli">
+             Title="Июль">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Всемирный день эмоджи (эмодзи). 17 июля отмечается необычный, во многом забавный праздник – Всемирный день эмоджи (World Emoji Day), посвящённый сверхпопулярным в современном обществе пиктограммам, идеограммам и смайликам"
+                   TextColor="Wheat"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

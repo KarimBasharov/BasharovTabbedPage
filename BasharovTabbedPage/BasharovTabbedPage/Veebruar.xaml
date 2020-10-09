@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BasharovTabbedPage.Veebruar"
-             Title="Veebruar">
+             Title="Февраль">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="День независимости Эстонии. 
+24 февраля в Эстонии ежегодно отмечается главный государственный праздник — День независимости Эстонии (эст. Eesti Vabariigi aastapäev), в честь принятия в этот день в 1918 году в Таллине Декларации о независимости страны."
+                   TextColor="Wheat">
+            </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

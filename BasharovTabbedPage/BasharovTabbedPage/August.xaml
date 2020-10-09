@@ -2,12 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BasharovTabbedPage.August"
-             Title="August">
+             Title="Август">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="День Воздушно-десантных войск России. Ежегодно 2 августа в России отмечается славная дата — День Воздушно-десантных войск (День ВДВ)"
+                   TextColor="Wheat"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

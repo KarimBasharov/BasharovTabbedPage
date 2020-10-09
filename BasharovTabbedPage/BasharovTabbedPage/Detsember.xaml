@@ -2,12 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BasharovTabbedPage.Detsember"
-             Title="Detsember">
+             Title="Декабрь">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Всемирный день борьбы со СПИДом (World AIDS Day) ежегодно отмечается по всему миру 1 декабря"
+                   TextColor="Wheat"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
