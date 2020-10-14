@@ -5,8 +5,10 @@
              Title="Март">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Международный женский день. Всемирный день женщин, в который также отмечаются достижения женщин в политической, экономической и социальной областях, празднуется прошлое, настоящее и будущее женщин планеты."
-                   TextColor="Wheat"/>
+            <Label Text="Международный женский день."
+                   TextColor="Wheat"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

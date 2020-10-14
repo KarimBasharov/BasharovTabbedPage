@@ -5,8 +5,10 @@
              Title="Апрель">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="День дурака (April Fools' Day или All Fool's Day) или День смеха — это международный праздник, отмечаемый во всем мире 1 апреля. В этот день принято разыгрывать родных, друзей и просто знакомых, или подшучивать над ними."
-                   TextColor="Wheat"/>
+            <Label Text="День дурака"
+                   TextColor="Wheat"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

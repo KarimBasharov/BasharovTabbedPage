@@ -5,7 +5,8 @@
             Title="Январь">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="День рождения соломинки для коктейлей. 3 января в мире отмечается необычный праздник — эта дата считается Днем рождения соломинки для коктейлей (Drinking Straw Day)." TextColor="Wheat"
+            <Label Text="3 Января. День рождения соломинки для коктейлей." TextColor="Wheat"
+                   FontSize="Large"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

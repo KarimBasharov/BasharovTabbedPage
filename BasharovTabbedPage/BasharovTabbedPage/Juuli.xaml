@@ -5,8 +5,10 @@
              Title="Июль">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Всемирный день эмоджи (эмодзи). 17 июля отмечается необычный, во многом забавный праздник – Всемирный день эмоджи (World Emoji Day), посвящённый сверхпопулярным в современном обществе пиктограммам, идеограммам и смайликам"
-                   TextColor="Wheat"/>
+            <Label Text="17 Июля. Всемирный день эмоджи (эмодзи)."
+                   TextColor="Wheat"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

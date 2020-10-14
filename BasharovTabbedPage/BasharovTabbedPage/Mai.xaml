@@ -5,8 +5,10 @@
              Title="Май">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="День Победы. 9 мая — День Победы в войне над фашистской Германией — является в России, бывших советских республиках и многих странах Европы одним из самых важных, трогательных и славных праздников."
-                   TextColor="Wheat"/>
+            <Label Text="День Победы. 9 мая — День Победы в войне над фашистской Германией."
+                   TextColor="Wheat"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

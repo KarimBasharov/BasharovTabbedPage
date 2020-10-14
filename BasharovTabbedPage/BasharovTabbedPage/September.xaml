@@ -6,7 +6,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="День знаний"
-                   TextColor="Wheat"/>
+                   TextColor="Wheat"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

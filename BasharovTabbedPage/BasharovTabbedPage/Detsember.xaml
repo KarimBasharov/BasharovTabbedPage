@@ -5,8 +5,10 @@
              Title="Декабрь">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Всемирный день борьбы со СПИДом (World AIDS Day) ежегодно отмечается по всему миру 1 декабря"
-                   TextColor="Wheat"/>
+            <Label Text="1 Декабря. Всемирный день борьбы со СПИДом"
+                   TextColor="Wheat"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

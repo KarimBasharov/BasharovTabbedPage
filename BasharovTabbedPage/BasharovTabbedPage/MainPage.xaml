@@ -4,17 +4,9 @@
              x:Class="BasharovTabbedPage.MainPage"
              xmlns:local="clr-namespace:BasharovTabbedPage;assembly=BasharovTabbedPage">
     <TabbedPage.Children>
-        <local:Jaanuar/>
-        <local:Veebruar/>
-        <local:Marts/>
-        <local:Aprill/>
-        <local:Mai/>
-        <local:Juuni/>
-        <local:Juuli/>
-        <local:August/>
-        <local:September/>
-        <local:Oktoober/>
-        <local:November/>
-        <local:Detsember/>
+        <local:Talv/>
+        <local:Kevad/>
+        <local:Suvi/>
+        <local:Sygis/>
     </TabbedPage.Children>
 </TabbedPage>

@@ -6,8 +6,10 @@
              IconImageSource="korablik.jpg">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="День моряка. Ежегодно 25 июня отмечается День моряка или, по-другому, День мореплавателя (Day of the Seafarer)."
-                   TextColor="Wheat"/>
+            <Label Text="День моряка. Ежегодно 25 июня отмечается День моряка."
+                   TextColor="Wheat"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

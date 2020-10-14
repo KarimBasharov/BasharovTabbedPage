@@ -6,7 +6,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Хэллоуин — Halloween (All Hallows Evening или Beggars Night)"
-                   TextColor="Wheat"/>
+                   TextColor="Wheat"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

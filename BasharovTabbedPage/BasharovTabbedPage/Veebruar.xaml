@@ -5,9 +5,10 @@
              Title="Февраль">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="День независимости Эстонии. 
-24 февраля в Эстонии ежегодно отмечается главный государственный праздник — День независимости Эстонии (эст. Eesti Vabariigi aastapäev), в честь принятия в этот день в 1918 году в Таллине Декларации о независимости страны."
-                   TextColor="Wheat">
+            <Label Text="День независимости Эстонии. 24 февраля в Эстонии ежегодно отмечается главный государственный праздник — День независимости Эстонии."
+                   TextColor="Wheat"
+                   FontSize="Large"
+                   HorizontalOptions="Center">
             </Label>
         </StackLayout>
     </ContentPage.Content>
