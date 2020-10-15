@@ -10,6 +10,7 @@
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
+            <Image Source="https://fresh-cards.ru/images/stories/virtuemart/product/19-marta-den-moryaka-podvodnika-otkrytka.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

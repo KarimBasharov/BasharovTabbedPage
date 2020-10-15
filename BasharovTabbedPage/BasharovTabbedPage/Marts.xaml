@@ -9,6 +9,7 @@
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
+            <Image Source="https://i.pinimg.com/736x/ab/f2/d7/abf2d7ae1cb58d05fcb2359463f084ea.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

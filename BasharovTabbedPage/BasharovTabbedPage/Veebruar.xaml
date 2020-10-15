@@ -8,8 +8,8 @@
             <Label Text="День независимости Эстонии. 24 февраля в Эстонии ежегодно отмечается главный государственный праздник — День независимости Эстонии."
                    TextColor="Wheat"
                    FontSize="Large"
-                   HorizontalOptions="Center">
-            </Label>
+                   HorizontalOptions="Center"/>
+            <Image Source="https://s.err.ee/photo/crop/2016/02/21/486957h9ab2t72.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
