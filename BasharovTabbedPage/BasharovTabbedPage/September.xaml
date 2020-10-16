@@ -5,11 +5,19 @@
              Title="Сентябрь">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="День знаний"
+            <Label x:Name="lbl" Text="День знаний"
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="https://i.pinimg.com/736x/4a/58/45/4a58455048782428dab6e54051878dbd.jpg"/>
+            <Button x:Name="btn"
+                    Text="подробнее" 
+                    BackgroundColor="#ffcccc" 
+                    BorderWidth="2" 
+                    FontSize="Small"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="btn_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

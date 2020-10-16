@@ -5,11 +5,19 @@
              Title="Март">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Международный женский день."
+            <Label x:Name="lbl" Text="Международный женский день."
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="https://i.pinimg.com/736x/ab/f2/d7/abf2d7ae1cb58d05fcb2359463f084ea.jpg"/>
+            <Button x:Name="btn"
+                    Text="подробнее" 
+                    BackgroundColor="#ffcccc" 
+                    BorderWidth="2" 
+                    FontSize="Small"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="btn_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

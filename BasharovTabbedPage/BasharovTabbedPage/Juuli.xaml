@@ -5,11 +5,19 @@
              Title="Июль">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="17 Июля. Всемирный день эмоджи (эмодзи)."
+            <Label x:Name="lbl" Text="17 Июля. Всемирный день эмоджи (эмодзи)."
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="https://i.pinimg.com/originals/c9/27/47/c9274736e96a1594b76ffc5cda4ee10d.jpg"/>
+            <Button x:Name="btn"
+                    Text="подробнее" 
+                    BackgroundColor="#ffcccc" 
+                    BorderWidth="2" 
+                    FontSize="Small"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="btn_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

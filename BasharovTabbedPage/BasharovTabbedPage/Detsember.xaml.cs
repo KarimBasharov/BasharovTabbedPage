@@ -16,5 +16,10 @@ namespace BasharovTabbedPage
         {
             InitializeComponent();
         }
+
+        private void btn_Clicked(object sender, EventArgs e)
+        {
+            lbl.Text = "Впервые День борьбы со СПИДом отмечался 1 декабря 1988 года после того, как на встрече министров здравоохранения всех стран прозвучал призыв к социальной терпимости и расширению обмена информацией по ВИЧ/СПИДу.";
+        }
     }
 }

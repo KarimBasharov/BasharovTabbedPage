@@ -5,11 +5,19 @@
              Title="Апрель">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="День дурака"
+            <Label x:Name="lbl" Text="День дурака"
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="https://i.pinimg.com/736x/2c/b3/25/2cb325a5ad97603d1d471f20331b24e9.jpg"/>
+            <Button x:Name="btn"
+                    Text="подробнее" 
+                    BackgroundColor="#ffcccc" 
+                    BorderWidth="2" 
+                    FontSize="Small"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="btn_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

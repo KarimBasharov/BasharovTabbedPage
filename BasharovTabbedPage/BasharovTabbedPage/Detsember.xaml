@@ -5,11 +5,19 @@
              Title="Декабрь">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="1 Декабря. Всемирный день борьбы со СПИДом"
+            <Label x:Name="lbl" Text="1 Декабря. Всемирный день борьбы со СПИДом"
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
-            <Image Source="https://lh3.googleusercontent.com/proxy/i0bnQNbrIU71XQiFN-BAfiJAWFXqTyoNppnBrJ-x3mdETSNb8hgbXs1y7jgwbWlSW_79u_ccn4pJQmnemVoCOtWwzoVG700fNbY4HUFKg1Rl6fBNKejSR6hMZVZsVvo"/>
+            <Image Source="https://png.pngtree.com/png-clipart/20190529/ourlarge/pngtree-world-aids-day-red-ribbon-png-image_1000281.jpg"/>
+            <Button x:Name="btn"
+                    Text="подробнее" 
+                    BackgroundColor="#ffcccc" 
+                    BorderWidth="2" 
+                    FontSize="Small"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="btn_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

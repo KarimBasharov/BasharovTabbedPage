@@ -5,11 +5,19 @@
              Title="Август">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="2 Августа. День Воздушно-десантных войск России."
+            <Label x:Name="lbl"  Text="2 Августа. День Воздушно-десантных войск России."
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="https://pbs.twimg.com/media/BuAhNeHIYAEtjjE.jpg"/>
+            <Button x:Name="btn"
+                    Text="подробнее" 
+                    BackgroundColor="#ffcccc" 
+                    BorderWidth="2" 
+                    FontSize="Small"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="btn_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

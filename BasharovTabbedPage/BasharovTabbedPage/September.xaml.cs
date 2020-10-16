@@ -16,5 +16,10 @@ namespace BasharovTabbedPage
         {
             InitializeComponent();
         }
+
+        private void btn_Clicked(object sender, EventArgs e)
+        {
+            lbl.Text = "Этот праздник появился в советское время. Официально как «День знаний» он был учреждён Указом Президиума Верховного Совета СССР № 373-11 от 15 июня 1984 года";
+        }
     }
 }

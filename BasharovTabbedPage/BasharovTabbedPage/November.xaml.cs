@@ -16,5 +16,10 @@ namespace BasharovTabbedPage
         {
             InitializeComponent();
         }
+
+        private void btn_Clicked(object sender, EventArgs e)
+        {
+            lbl.Text = "Инициатором учреждения праздника стал мексиканский художник Альфредо Гуати Рохо (исп. Alfredo Guati Rojo, 1918-2003).";
+        }
     }
 }

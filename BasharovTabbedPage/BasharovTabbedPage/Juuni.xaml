@@ -6,11 +6,19 @@
              IconImageSource="korablik.jpg">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="День моряка. Ежегодно 25 июня отмечается День моряка."
+            <Label x:Name="lbl" Text="День моряка. Ежегодно 25 июня отмечается День моряка."
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="https://fresh-cards.ru/images/stories/virtuemart/product/19-marta-den-moryaka-podvodnika-otkrytka.jpg"/>
+            <Button x:Name="btn"
+                    Text="подробнее" 
+                    BackgroundColor="#ffcccc" 
+                    BorderWidth="2" 
+                    FontSize="Small"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="btn_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

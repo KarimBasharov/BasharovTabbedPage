@@ -16,5 +16,10 @@ namespace BasharovTabbedPage
         {
             InitializeComponent();
         }
+
+        private void btn_Clicked(object sender, EventArgs e)
+        {
+            lbl.Text = "Существует мнение, что первый в истории «марш пустых кастрюль» текстильщиц Нью-Йорка, прошедший 8 марта 1857 года, стал одной из предпосылок празднования Международного женского дня.";
+        }
     }
 }

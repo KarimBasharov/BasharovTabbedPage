@@ -5,11 +5,19 @@
              Title="Октябрь">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Хэллоуин — Halloween (All Hallows Evening или Beggars Night)"
+            <Label x:Name="lbl" Text="Хэллоуин — Halloween (All Hallows Evening или Beggars Night)"
                    TextColor="Wheat"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <Image Source="https://i.pinimg.com/originals/9e/05/25/9e05259833e1c1f1dece32d240366b3d.jpg"/>
+            <Button x:Name="btn"
+                    Text="подробнее" 
+                    BackgroundColor="#ffcccc" 
+                    BorderWidth="2" 
+                    FontSize="Small"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="btn_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

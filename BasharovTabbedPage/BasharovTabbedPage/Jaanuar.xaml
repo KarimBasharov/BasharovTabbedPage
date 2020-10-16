@@ -5,10 +5,18 @@
             Title="Январь">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="3 Января. День рождения соломинки для коктейлей." TextColor="Wheat"
+            <Label x:Name="lbl" Text="3 Января. День рождения соломинки для коктейлей." TextColor="Wheat"
                    FontSize="Large"
                 HorizontalOptions="Center" />
-            <Image Source="https://lh3.googleusercontent.com/proxy/0u9HuEPSjKU3KJ2exWgMXSPkm_OL_vX5eUcSL3Ex9dFHJ7LMjBHyyqALC9xxrqn77ouQxVhUyubQYhTlYXT1Og1Hzl-on1GKmU1mCj57IOj0MefdBNhECBBO"/>
+            <Image Source="https://sovetnews.com/wp-content/uploads/2017/01/100pcs-Lot-wedding-decoration-Or-Birthday-Party-Decorations-Kids-Striped-Chevron-And-Polka-Dot-Drinking-font-300x300.jpg" HorizontalOptions="Center"/>
+            <Button x:Name="btn"
+                    Text="подробнее" 
+                    BackgroundColor="#ffcccc" 
+                    BorderWidth="2" 
+                    FontSize="Small"
+                    VerticalOptions="EndAndExpand"
+                    Clicked="btn_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

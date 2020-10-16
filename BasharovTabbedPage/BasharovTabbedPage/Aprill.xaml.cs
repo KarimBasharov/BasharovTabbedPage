@@ -16,5 +16,10 @@ namespace BasharovTabbedPage
         {
             InitializeComponent();
         }
+
+        private void btn_Clicked(object sender, EventArgs e)
+        {
+            lbl.Text = "Откуда именно родом этот праздник — из Франции, Англии, Мексики или Швеции — тайна, которая, к сожалению, покрыта мраком.";
+        }
     }
 }
