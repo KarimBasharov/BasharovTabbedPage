@@ -21,5 +21,10 @@ namespace BasharovTabbedPage
         {
             lbl.Text = "Откуда именно родом этот праздник — из Франции, Англии, Мексики или Швеции — тайна, которая, к сожалению, покрыта мраком.";
         }
+
+        private void batn_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Дата праздника", "1 апреля", "OK  ");
+        }
     }
 }

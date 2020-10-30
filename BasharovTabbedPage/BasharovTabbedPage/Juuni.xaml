@@ -17,7 +17,17 @@
                     BorderWidth="2" 
                     FontSize="Small"
                     VerticalOptions="EndAndExpand"
+                    HorizontalOptions="Center"
                     Clicked="btn_Clicked">
+            </Button>
+            <Button x:Name="batn"
+                    Text="дата"
+                    BackgroundColor="#ffcccc"
+                    BorderWidth="2"
+                    FontSize="Small"
+                    VerticalOptions="End"
+                    HorizontalOptions="Center"
+                    Clicked="batn_Clicked">
             </Button>
         </StackLayout>
     </ContentPage.Content>

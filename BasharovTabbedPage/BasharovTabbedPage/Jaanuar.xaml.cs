@@ -20,6 +20,11 @@ namespace BasharovTabbedPage
         private void btn_Clicked(object sender, EventArgs e)
         {
             lbl.Text = "3 января 1888 года Марвин Стоун запатентовал свое изобретение — соломинку — он получил в Вашингтонском патентном бюро документы на изобретение бумажной соломки для питья коктейлей и прочих жидкостей за № 375962. А уже в 1890 году их изготовление стало его основным бизнесом";
+            
+        }
+        private void batn_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Дата праздника", "3 января", "OK  ");
         }
     }
 }

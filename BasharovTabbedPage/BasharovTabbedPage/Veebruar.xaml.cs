@@ -21,5 +21,9 @@ namespace BasharovTabbedPage
         {
             lbl.Text = "Именно дата 24 февраля 1918 года, когда Комитетом Спасения была провозглашена независимость страны, и считается сегодня датой образования Эстонской республики.";
         }
+        private void batn_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Дата праздника", "24 февраля", "OK  ");
+        }
     }
 }
